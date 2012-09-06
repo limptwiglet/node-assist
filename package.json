@@ -20,7 +20,7 @@
   "dependencies": {
   	  "mime": "1.2.7"
   },
-  "devdepencies": {
+  "devDepencies": {
   	  "mocha": "*",
   	  "chai": "*"
   }
