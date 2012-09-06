@@ -20,6 +20,7 @@ describe('FileSystemHandler', function(){
 				handler: new handler('/some/path', {test: 'value'})
 			});
 			a1.find('', function(err, file){
+				console.log('here');
 				console.log(err, file);
 			});
 		});
